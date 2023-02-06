@@ -1,7 +1,10 @@
-const element = document.querySelector("#app > div.v-application--wrap > div > main > div > div:nth-child(3) > div > div.v-item-group.theme--dark > div > div > span > div:nth-child(1) > div > a > div");
-const text = element.innerText;
+const elements = document.querySelectorAll(".v-card__subtitle.pa-2.pb-1.text--primary");
 const regex = /Chapter\s(\w+)/;
-const match = text.match(regex);
-if (match) {
-  element.innerText = match[0];
+
+for (const element of elements) {
+  const text = element.innerHTML;
+  const match = text.match(regex);
+  if (match) {
+    element.innerHTML = match[0];
+  }
 }
