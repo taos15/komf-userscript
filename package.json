@@ -16,7 +16,7 @@
     "axios": "^1.2.0",
     "is-language-code": "^5.0.3",
     "pinia": "^2.0.26",
-    "quasar": "^2.10.2",
+    "quasar": "^2.23.2",
     "sortablejs": "^1.15.0",
     "sortablejs-vue3": "^1.2.5",
     "vite-plugin-css-injected-by-js": "^2.1.1",
